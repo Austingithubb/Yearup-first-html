@@ -1,19 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YearUp First HTML Project</title>
-</head>
-<body>
-    <header><h1>
-        Welcome to Kandor
-    </h1>
-    <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-
-    </header>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/script.js"></script>
     
-</body>
+  </head>
+  <body>
+
+    <header>
+      <div class="child">
+        <img src="images/logo.png" />
+      </div>
+
+      <ul class="child">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="child">
+        <img src="images/magnify.png" id="magnify" />
+        <input type="text" name="search" id="search">
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Flexawesome</h1>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
